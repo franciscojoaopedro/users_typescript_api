@@ -1,7 +1,7 @@
 import express from 'express'
 import { config } from 'dotenv'
 import { GetUserController } from './controllers/get-users/gett-users'
-import { MongoGetUsersRepository } from './repositories/mongo-get-users'
+import { MongoGetUsersRepository } from './repositories/get-users/mongo-get-users'
 import { MongoClient } from './database/mongo'
 
 const main = async () => {
