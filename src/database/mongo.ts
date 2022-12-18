@@ -13,8 +13,8 @@ export const MongoClient = {
     const db = client.db('users-db')
 
     this.client = client
-    this.db = db;
+    this.db = db
 
-    console.log('conectado com mongodb');
+    console.log('conectado com mongodb')
   },
 }
